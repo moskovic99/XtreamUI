@@ -8,7 +8,7 @@ This is an installation mirror for xtream ui software.
 update your ubuntu first, then install panel  
   
 * sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y;  
-* wget https://github.com/emre1393/xtreamui_mirror/raw/master/install.py; 
+* wget https://github.com/moskovic99/XtreamUI/blob/main/install.py; 
 * sudo python install.py  
   
 If you want to install main server with admin panel, choose MAIN.  
@@ -36,7 +36,7 @@ you can compare my install.py with original one.
 
 ### note2,
 edit pytools/balancer.py to use "auto lb installer" from this mirror. auto lb installer added to panel with update    
-`sed -i 's|"https://xtream-ui.com/install/balancer.py"|"https://github.com/emre1393/xtreamui_mirror/raw/master/balancer.py"|g' /home/xtreamcodes/iptv_xtream_codes/pytools/balancer.py`  
+`sed -i 's|"https://xtream-ui.com/install/balancer.py"|"https://github.com/moskovic99/XtreamUI/blob/main/balancer.py"|g' /home/xtreamcodes/iptv_xtream_codes/pytools/balancer.py`  
 
 ### note3,  
 developer made update releases open to public after r22c release, you can download them from https://xtream-ui.com.  
