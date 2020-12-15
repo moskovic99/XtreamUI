@@ -90,9 +90,9 @@ def install(rType="MAIN"):
 def update(rType="MAIN"):
     if rType == "UPDATE":
         printc("Enter the link of release_xyz.zip file:", col.WARNING)
-        rlink = raw_input('Example: https://bitbucket.org/moskovic99/xtreamui_setup/downloads/release_22f.zip\n\nNow enter the link:\n\n')
+        rlink = raw_input('Example: http://limontv.net/xtreamSetup/Xtream_release_22f.zip\n\nNow enter the link:\n\n')
     else:
-        rlink = "https://bitbucket.org/moskovic99/xtreamui_setup/downloads/release_22f.zip"
+        rlink = "http://limontv.net/xtreamSetup/Xtream_release_22f.zip"
         printc("Installing Admin Panel")
     hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36',
        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
